@@ -1,0 +1,39 @@
+{
+  "name": "park-map",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vue-tsc && vite build --mode production",
+    "preview": "vite preview",
+    "lint": "eslint --fix src/**/*.{ts,vue}",
+    "format": "prettier -w src/**/*.{ts,vue}",
+    "fix": "npm run format && npm run lint"
+  },
+  "dependencies": {
+    "@geolonia/normalize-japanese-addresses": "^2.10.1",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "axios": "^1.7.2",
+    "csv-parse": "^5.5.6",
+    "leaflet": "^1.9.4",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^20.14.8",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vue-tsc": "^2.0.6"
+  }
+}

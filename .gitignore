@@ -1,0 +1,9 @@
+node_modules
+dist
+
+.vscode
+
+.env.development
+.env.production
+
+src/assets/park-list.csv
